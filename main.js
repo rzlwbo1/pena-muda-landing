@@ -1,26 +1,27 @@
 const swiper = new Swiper('.swiper-container', {
-  // Optional parameters
+  /* Optional parameters */
   direction: 'horizontal',
   loop: true,
   
-  // Navigation arrows
+  /* Navigation arrows */
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
 
-  // Slides
+  /* Slides */
+
   slidesPerView: 1,
 
-  // Space between
+  /* Space betweeen */
   spaceBetween: 10,
 
-  // touch
+  /* touch */
   allowTouchMove: true,
 
   
 
-  // breakpoints
+  /* breakpoints */
   breakpoints: {
     640: {
       slidesPerView: 2,
