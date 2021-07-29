@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Penamuda Website</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Bootsrap 5 -->
+  <link rel="stylesheet" href="library/bootstrap.css">
+
+  <!-- Swiper Js -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+  <!-- style -->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body >
+
+
+  <div class="wrapper overflow-hidden">
+
+    <!-- Navigasi -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light nav-pena">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="icons/logo.svg" alt="logo-pena">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent" style="background-color: #FFBA08; width: 100%;">
+            <ul class="navbar-nav mb-2 mb-lg-0 navs-pena">
+              <li class="nav-item me-3">
+                <a class="nav-link link-pena" aria-current="page" href="index.html">Beranda</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link link-pena" href="#">Essai</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link link-pena" href="#">Liputan</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link link-pena" href="#">Karya Mahasiswa</a>
+              </li>
+            </ul>
+            <form class="form-search ms-auto">
+              <div class="d-flex">
+                <input class="form-control border-0" type="search" placeholder="Cari yang kamu butuhkan" aria-label="Search">
+                <button class="btn" type="submit">
+                  <img src="icons/search.png" alt="search" width="39">
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Headline -->
+      <section class="headline container py-4 px-md-4">
+        <div class="row headline-row justify-content-md-center gx-md-4 align-items-md-center">
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="headline-image">
+              <img src="images/headline.jpg" alt="headline-image" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-auto">
+            <div class="headline-desc d-flex flex-column">
+              <p class="terkini">Berita terkini</p>
+              <h1 class="headline-title text-uppercase mb-md-4">ppkm diperpanjang, 
+                <br/>
+                kenapa?
+              </h1>
+              <p class="date-terkini">21 Juli 2021</p>
+              <a href="#" class="btn btn-pena text-white" role="button">Baca Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END HEADLINE -->
+
+      <!-- Rekomendasi -->
+      <section class="rekomedasi mt-3">
+        <div class="container">
+          <h4 class="fw-bold">Rekomendasi untuk anda</h4>
+        </div>
+
+        <div class="slider-pena mt-4">
+          <div class="swiper-container">
+
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <div class="image-slide">
+                  <img src="images/avangers.jpg" alt="image" class="img-fluid">
+                </div>
+                <div class="slide-desc">
+                  <h3 class="title-slide text-white p-2 w-75 ms-2 mt-3">Review Film</h3>
+                  <h2 class="ms-2 fw-bold pt-3"><a href="#" class="text-reset text-decoration-none">
+                    AVENGERS:
+                    THE END GAME (2019)
+                  </a></h2>
+                </div>
+                <div class="slide-author ms-2 pt-3">
+                  <div class="author-rate mt-2 mb-1">
+                    <p class="mb-0">Oka Rhahul A.A</p>
+                    <img src="icons/heart.png" alt="heart-icon" width="22" height="22" class="ms-auto">
+                    <span class="ps-1">99+</span>
+                  </div>
+                  <p>22 Juli 2021</p>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="image-slide">
+                  <img src="images/fotografi.jpg" alt="image" class="img-fluid">
+                </div>
+                <div class="slide-desc">
+                  <h3 class="title-slide text-white p-2 w-75 ms-2 mt-3">Sastra</h3>
+                  <h2 class="ms-2 fw-bold pt-3"><a href="#" class="text-reset text-decoration-none">
+                    Terbanglah
+                  </a></h2>
+                </div>
+                <div class="slide-author ms-2 pt-3">
+                  <div class="author-rate mt-2 mb-1">
+                    <p class="mb-0">Oka Rhahul A.A</p>
+                    <img src="icons/heart.png" alt="heart-icon" width="22" height="22" class="ms-auto">
+                    <span class="ps-1">80+</span>
+                  </div>
+                  <p>22 Juli 2021</p>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="image-slide">
+                  <img src="images/lompat.jpg" alt="image" class="img-fluid">
+                </div>
+                <div class="slide-desc">
+                  <h3 class="title-slide text-white p-2 w-75 ms-2 mt-3">Fotografi</h3>
+                  <h2 class="ms-2 fw-bold pt-3">
+                    <a href="#" class="text-reset text-decoration-none">
+                      Melompat Tanpa Ragu
+                    </a>
+                  </h2>
+                </div>
+                <div class="slide-author ms-2 pt-3">
+                  <div class="author-rate mt-2 mb-1">
+                    <p class="mb-0">Oka Rhahul A.A</p>
+                    <img src="icons/heart.png" alt="heart-icon" width="22" height="22" class="ms-auto">
+                    <span class="ps-1">90+</span>
+                  </div>
+                  <p>22 Juli 2021</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev nav-swiper"></div>
+          <div class="swiper-button-next nav-swiper"></div>
+        </div>
+      </section>
+      <!-- END REKOMENDASI -->
+      
+    </main>
+
+    <footer>
+      <div class="row footer-container">
+        
+        <div class="col-12 col-sm-5 foot-pena-left d-block d-md-flex justify-content-md-center align-items-md-center">
+          <div class="logo-footer align-self-md-start">
+            <img src="icons/logo.svg" alt="icons-logo">
+          </div>
+          <div class="foot-content">
+            <h3 class="fw-bold">UKM PENA MUDA</h3>
+            <p>UNIVERSITAS BHAYANGKARA JAKARTA RAYA
+              Jl. Perjuangan Raya, Marga Mulya, Bekasi Utara, Kota Bekasi, Jawa Barat, 17143</p>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+
+        <div class="col-12 col-sm-7 foot-pena-right">
+          <div class="foot-links pt-md-4">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link text-white fw-bold" aria-current="page" href="#">Tentang Kami</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white fw-bold" href="#">Beranda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white fw-bold" href="#">Hubingi Kami:
+                  <span><img src="icons/instagram.png" alt="" width="52"></span>
+                  <span><img src="icons/whatsapp.png" alt="" width="52"></span>
+                  <span><img src="icons/gmail.png" alt="" width="52"></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <p class="text-white text-md-end pe-3 fw-lighter">Hak &copy; Cipta oleh PENA MUDA</p>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+
+  
+  <script src="library/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
